@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+<div class="container">
+  <h1>Welcome to my Website!</h1>
+
+  <div class="button-section">
+    <button id="python-btn">Python Game</button>
+    <button id="js-btn">JavaScript Game</button>
+    <button id="surprise-btn">Random button</button>
+    <button id="home-btn" class="hidden">Back to Home</button> 
+  </div>
+
+  <p>Hello! I'm Sophia, currently a student at the Village school. This is my first website, and I hope to improve and update the site even after its finished.</p>
+
+  <p>The game were imported from makecode and now appear! As the message below states keys 1,2, and 3 accesses the javascript, python, and surprise game. My lastest update was the home button, which is used when you want to go back to the homepage,also by pressing the 5 key. Thanks for visiting my website! Enjoy! </p>
+
+  <!-- Message Box -->
+  <p id="message-box" class="status">Press 1, 2, or 3 to start something cool!</p>
+
+  <!-- Games (hidden until clicked) -->
+  <div id="js-game" class="game hidden">
+    <iframe src="https://arcade.makecode.com/---run?id=S70081-73213-88920-61492" allowfullscreen sandbox="allow-popups allow-forms allow-scripts allow-same-origin" frameborder="0"></iframe>
+  </div>
+
+  <div id="python-game" class="game hidden">
+    <iframe src="https://arcade.makecode.com/---run?id=S64374-56483-46186-72102" allowfullscreen sandbox="allow-popups allow-forms allow-scripts allow-same-origin" frameborder="0"></iframe>
+  </div>
+
+  <div id="surprise-game" class="game hidden">
+    <iframe src="https://arcade.makecode.com/---run?id=S86196-96254-84047-50574" allowfullscreen sandbox="allow-popups allow-forms allow-scripts allow-same-origin" frameborder="0"></iframe>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+
+</html>
